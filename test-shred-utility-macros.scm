@@ -9,8 +9,10 @@
 (define runner (test-runner-simple))
 
 (test-with-runner runner 
-		  (test-group "Tests of the state definition template macro and support functions"
-			      (test-group "Basic matcher generation - a single atomic rule"
-					  (let (matcher (
+  (test-group
+   "Tests of the state definition template macro and support functions"
+   (test-group
+    "Basic matcher generation - a single atomic rule"
+    (let ((matcher (
                                                 
 					 
